@@ -48,36 +48,39 @@ The newsvendor model determines the order quantity that minimizes expected cost 
 
 Optimal inventory is determined by the critical ratio: 
 Stockout Cost / (Stockout Cost + Holding Cost)
-  
-	​
+​
 Simulation with actual demand was used to compare the optimized policy with a naive mean-demand strategy.
 
 Forecasting Results
-Model	          MAE	      RMSE	        SMAPE
-Naive baseline	5.944	     7.36	        31.31%
-Moving average	4.34	     5.50	        22.45%
-Random Forest	  4.295	     5.371	      22.59%
+- Model	            MAE	        RMSE	        SMAPE
+- Naive baseline	5.944	     7.36	        31.31%
+- Moving average	4.34	     5.50	        22.45%
+- Random Forest	    4.295	     5.371	        22.59%
 
 Machine learning reduced forecasting error by approximately 28% compared to naive prediction.
 
 Inventory Optimization Results
+
 Assumptions:
 - Holding cost = 1 per unit
 - Stockout cost = 5 per unit
 
 Strategy	             InventoryLevel	       Total Cost
-Mean-demand policy	   20.52	               1220.43
-Newsvendor optimal	   24.45	               840.42
+- Mean-demand policy	   20.52	               1220.43
+- Newsvendor optimal	   24.45	               840.42
 
 Cost reduction: 31.14%
 
 Key Insights:
+
 Machine learning significantly improves demand prediction accuracy. Moving average models capture seasonality effectively. Forecasts alone do not create value — decision optimization does. Cost-aware inventory policies substantially reduce operational expense.This project demo nstrates how predictive analytics can be embedded into real decision frameworks.
                                     
-Business Impact
+Business Impact:
+
 By integrating forecasting with decision optimization, the system converts predictive insights into operational policies that directly reduce cost. The optimized inventory strategy lowered total cost by over 31%, demonstrating measurable financial value from data-driven decision making.
 
-Conclusion
+Conclusion:
+
 This project illustrates that the true value of data science lies not only in prediction accuracy but in actionable decision support. By combining machine learning with economic optimization, demand forecasts were translated into inventory policies that significantly improve operational efficiency.
 
 Author
