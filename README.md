@@ -1,11 +1,13 @@
 Demand Forecasting and Inventory Optimization Using Machine Learning
 
-Project Overview
+Project Overview:
+
 This project develops an end-to-end data science pipeline that forecasts retail product demand and converts those forecasts into optimal inventory decisions. The objective is not only to predict future demand but to minimize operational cost by determining economically optimal order quantities under uncertainty. 
 
 The workflow integrates time series forecasting, machine learning, and operations research using the newsvendor model. Results demonstrate measurable improvements in both predictive accuracy and inventory cost efficiency.
 
-Business Problem
+Business Problem:
+
 Retail inventory management involves balancing two competing risks:
 - Overstocking → excess holding cost
 - Understocking → lost sales and stockout cost
@@ -13,7 +15,7 @@ Accurate demand forecasting alone does not solve this problem. Businesses must t
 
 This project addresses both components: Forecast daily product demand and determine cost-optimal inventory levels.
 
-Dataset
+Dataset:
 
 In this project, we used Retail Store Item Demand Forecasting dataset (Kaggle). Each record represents daily sales of a product at a specific store. Features include Date, Store ID, Item ID, and Daily sales (target variable).
 
@@ -65,7 +67,7 @@ Assumptions:
 - Holding cost = 1 per unit
 - Stockout cost = 5 per unit
 
-Strategy	             InventoryLevel	       Total Cost
+Strategy	             Inventory Level	       Total Cost
 - Mean-demand policy	   20.52	               1220.43
 - Newsvendor optimal	   24.45	               840.42
 
