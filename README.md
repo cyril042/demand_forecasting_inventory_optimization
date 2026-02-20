@@ -86,4 +86,5 @@ Conclusion:
 This project illustrates that the true value of data science lies not only in prediction accuracy but in actionable decision support. By combining machine learning with economic optimization, demand forecasts were translated into inventory policies that significantly improve operational efficiency.
 
 Author
+
 Cyril Udeani
