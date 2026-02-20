@@ -29,9 +29,9 @@ Three forecasting approaches were evaluated:
 - Random Forest regression with lag features and rolling statistics
 
 Performance was evaluated using:
-Mean Absolute Error (MAE)
-Root Mean Squared Error (RMSE)
-Symmetric Mean Absolute Percentage Error (SMAPE)
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Symmetric Mean Absolute Percentage Error (SMAPE)
 
 2️. Feature Engineering for Machine Learning
 Lag-based predictors were constructed to convert the time series into a supervised learning problem:
